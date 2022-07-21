@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
 
   s.license = "MIT"
 
-  s.required_ruby_version = ">= 2.6"
+  s.required_ruby_version = ">= 2.3"
 
   s.add_runtime_dependency("concurrent-ruby")
   s.add_runtime_dependency("hash_diff")
@@ -40,7 +40,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency("openssl")
   s.add_runtime_dependency("securerandom")
   s.add_runtime_dependency("sorbet-runtime")
-  s.add_runtime_dependency("zeitwerk", "~> 2.5")
 
   s.add_development_dependency("activesupport")
   s.add_development_dependency("rake")
